@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Input
+comment0.text=\r\n\ Handle\ keyboard\ input\:\r\n\ \ keyPressed\ \ \ -\ happens\ one\ time\ when\ you\ press\ a\ key\ (discrete\ /\ instant)\r\n\ \ keyPressing\ \ -\ continues\ to\ happen\ while\ you\ are\ holding\ down\ the\ key\ (continuous)\r\n\ \ keyReleased\ \ -\ happens\ one\ time\ when\ you\ release\ a\ key\ (discrete\ /\ instant)\r\n\r\n
+comment1.params=listeningScene
+comment1.target=Input(javafx.scene.Scene)
+comment1.text=\r\n\ Input\ Constructor\r\n\r\n\ @param\ listeningScene\ the\ scene\ that\ will\ register\ keyboard\ events\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ Process\ the\ data\ (key\ names)\ stored\ in\ queues,\r\n\ \ so\ that\ keyPressed/keyPressing/keyReleased\ lists\r\n\ \ have\ correct\ information\ at\ the\ correct\ time\r\n\ \ (during\ our\ game\ loop).\r\n
+comment3.params=keyName
+comment3.target=boolean\ isKeyPressed(java.lang.String)
+comment3.text=\r\n\ Check\ if\ a\ key\ was\ just\ pressed.\r\n\r\n\ @param\ keyName\ the\ name\ of\ the\ key\ to\ check\r\n\ @return\ true\ if\ the\ key\ was\ just\ pressed\r\n
+comment4.params=keyName
+comment4.target=boolean\ isKeyPressing(java.lang.String)
+comment4.text=\r\n\ Check\ if\ a\ key\ is\ currently\ being\ held\ down.\r\n\r\n\ @param\ keyName\ the\ name\ of\ the\ key\r\n\ @return\ true,\ if\ the\ key\ is\ being\ held\ down\r\n
+comment5.params=keyName
+comment5.target=boolean\ isKeyReleased(java.lang.String)
+comment5.text=\r\n\ Check\ if\ key\ was\ just\ released\ (just\ let\ go).\r\n\r\n\ @param\ keyName\ the\ name\ of\ the\ key\ to\ check\r\n\ @return\ true,\ if\ key\ was\ released\r\n
+numComments=6

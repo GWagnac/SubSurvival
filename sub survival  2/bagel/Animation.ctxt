@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Animation
+comment0.text=\r\n\ \ An\ Animation\ displays\ a\ sequence\ of\ images\ in\ succession\ to\ create\ the\ appearance\ of\ change.\r\n\ \ Uses\ a\ list\ of\ Rectangles\ to\ specify\ which\ part\ of\ the\ image\ should\ be\ drawn.\r\n\ \ Similar\ to\ a\ Texture\ whose\ region\ is\ changing\ repeatedly.\r\n
+comment1.params=imageFileName\ rows\ columns\ duration\ loop
+comment1.target=Animation(java.lang.String,\ int,\ int,\ double,\ boolean)
+comment1.text=\r\n\ Load\ an\ image\ file\ into\ a\ Texture,\ and\ create\ a\ list\ of\ rectangles\r\n\ \ corresponding\ to\ the\ smaller\ image\ sizes,\ calculated\ from\ number\ of\ rows\ and\ columns.\r\n\r\n\ @param\ imageFileName\ name\ of\ the\ file\r\n\ @param\ rows\ number\ of\ rows\ of\ small\ images\r\n\ @param\ columns\ number\ of\ columns\ of\ small\ images\r\n\ @param\ duration\ how\ long\ each\ image\ in\ spritesheet\ should\ appear\r\n\ @param\ loop\ should\ animation\ restart\ after\ last\ image\ is\ displayed\r\n
+comment2.params=deltaTime
+comment2.target=void\ update(double)
+comment2.text=\r\n\ \ Recalculate\ which\ region\ of\ texture\ should\ be\ displayed,\r\n\ \ \ \ based\ on\ how\ much\ time\ has\ passed.\r\n\ \ \ \ \r\n\ @param\ deltaTime\ amount\ of\ time\ that\ passed\ since\ last\ update\ (usually\ 1/60\ second).\r\n
+numComments=3

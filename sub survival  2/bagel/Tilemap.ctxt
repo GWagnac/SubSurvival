@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Tilemap
+comment0.text=\n\ Create\ levels\ from\ tile\ sets\ (image\ containing\ smaller\ rectangular\ images)\n\n
+comment1.params=imageFileName\ imageRows\ imageColumns
+comment1.target=Tilemap(java.lang.String,\ int,\ int)
+comment2.params=mapDataRows\ mapSymbolArray\ regionIndexArray
+comment2.target=void\ loadMapData(java.lang.String[],\ java.lang.String[],\ int[])
+comment2.text=\n\ Each\ map\ is\ represented\ by\ an\ array\ of\ Strings,\ one\ for\ each\ row.\n\ Example\:\ mapDataRows\ \=\ {\ "WWWWWW",\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "W....W",\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "W.W..W",\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "W.WC.W",\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "WP...W",\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "WWWWWW"\ \ }\n\ \ \ \ \ \ \ \ \ \ mapSymbolArray\ \ \ \=\ {\ "W",\ "C",\ "P"\ }\n\ \ \ \ \ \ \ \ \ \ regionIndexArray\ \=\ {\ \ 6\ ,\ \ 2\ ,\ \ 11\ }\n\ @param\ mapDataRows\ contains\ layout\ of\ tiles,\ each\ string\ is\ one\ row\n\ @param\ mapSymbolArray\ characters\ in\ mapDataRows\ that\ correspond\ to\ tiles\ \n\ @param\ regionIndexArray\ corresponding\ region\ index\ for\ each\ map\ symbol\n\ \n\ For\ convenience\:\ also\ split\ String[]\ \ \ mapDataRows\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ into\ 2D\ array\ String[][]\ mapDataGrid\n\ \n
+comment3.params=solidSymbolArray
+comment3.target=void\ loadSolidData(java.lang.String[])
+comment3.text=\n\ Set\ the\ array\ of\ symbols\ corresponding\ to\ tiles\ that\ should\ be\ considered\ "solid".\n\n\ @param\ solidSymbolArray\ an\ array\ of\ symbols/characters\n
+comment4.params=other
+comment4.target=void\ preventOverlap(Sprite)
+comment4.text=\n\ Change\ position\ of\ "other"\ sprite\ so\ that\ it\ does\ not\n\ \ overlap\ with\ any\ of\ the\ tiles\ designated\ as\ "solid"\ \n\ \ by\ the\ "loadSolidData"\ method.\n\n\ @param\ other\ a\ sprite\ whose\ position\ may\ be\ adjusted.\n
+comment5.params=width\ height
+comment5.target=void\ setTileSize(int,\ int)
+comment5.text=\n\ Sets\ how\ large\ each\ individual\ tile\ should\ be\ drawn\ on\ the\ screen.\n\n\ @param\ width\ width\ of\ each\ tile\n\ @param\ height\ height\ of\ each\ tile\n
+comment6.params=symbol
+comment6.target=java.util.ArrayList\ getSymbolPositionList(java.lang.String)
+comment6.text=\n\ Get\ a\ list\ of\ Vectors\ that\ correspond\ to\ positions\ (top-left\ x,y)\ where\n\ \ \ a\ certain\ character\ appears\ in\ the\ tilemap.\ Useful\ for\ placing\ Sprites.\n\n\ @param\ symbol\ the\ character\ in\ the\ map\ we\ are\ looking\ for\n\ @return\ a\ list\ of\ positions\ where\ that\ character\ appears\n
+comment7.params=context
+comment7.target=void\ draw(javafx.scene.canvas.GraphicsContext)
+numComments=8

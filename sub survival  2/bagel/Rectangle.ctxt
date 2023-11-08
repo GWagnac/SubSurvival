@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment0.text=\r\n\ Rectangles\ store\ position\ and\ size;\ used\ to\ check\ overlap\ between\ sprites.\r\n
+comment1.params=
+comment1.target=Rectangle()
+comment1.text=\r\n\ Rectangle\ Constructor\:\ sets\ default\ values\ to\ a\ 1x1\ rectangle,\r\n\ \ \ top-left\ corner\ at\ (0,0).\r\n\r\n
+comment2.params=x\ y\ w\ h
+comment2.target=Rectangle(double,\ double,\ double,\ double)
+comment2.text=\r\n\ Rectangle\ Constructor;\ sets\ position\ of\ top-left\ corner\ to\ (x,y)\r\n\ \ \ and\ the\ size\ to\ w\ by\ h.\r\n\r\n\ @param\ x\ coordinate\ for\ left\ side\r\n\ @param\ y\ coordinate\ for\ top\ side\r\n\ @param\ w\ width\r\n\ @param\ h\ height\r\n
+comment3.params=x\ y
+comment3.target=void\ setPosition(double,\ double)
+comment3.text=\r\n\ Update\ the\ position\ of\ this\ rectangle\r\n\r\n\ @param\ x\ new\ coordinate\ of\ left\ side\r\n\ @param\ y\ new\ coordinate\ of\ top\ side\r\n
+comment4.params=w\ h
+comment4.target=void\ setSize(double,\ double)
+comment4.text=\r\n\ Set\ size\ of\ this\ rectangle\r\n\r\n\ @param\ w\ new\ width\ of\ rectangle\r\n\ @param\ h\ new\ height\ of\ rectangle\r\n
+comment5.params=other
+comment5.target=boolean\ overlap(Rectangle)
+comment5.text=\r\n\ Check\ if\ this\ rectangle\ overlaps\ another\ rectangle.\r\n\r\n\ @param\ other\ other\ rectangle\ to\ check\ for\ overlap\r\n\ @return\ true\ if\ rectangles\ overlap\r\n
+comment6.params=other
+comment6.target=Vector\ getMinimumTranslationVector(Rectangle)
+comment6.text=\r\n\ Assuming\ that\ this\ rectangle\ overlaps\ other\ rectangle,\r\n\ calculate\ the\ four\ vectors\ that\ could\ be\ used\ to\ translate\ this\ rectangle\r\n\ so\ that\ this\ is\ no\ more\ overlap.\r\n\ Return\ the\ shortest\ (minimum)\ of\ these\ four\ vectors.\r\n\r\n\ @param\ other\ Represents\ the\ "solid"\ rectangle\r\n\ @return\ the\ minimum\ direction\ to\ move\ this\ rectangle\ by\r\n
+numComments=7

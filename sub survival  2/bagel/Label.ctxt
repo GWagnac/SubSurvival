@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Label
+comment0.text=\r\n\ Display\ text\ in\ a\ game.\r\n\ Extending\ the\ Sprite\ class\ so\ Labels\ can\ be\ added\ to\ Groups,\r\n\ \ \ and\ automatically\ drawn\ by\ the\ Game\ class.\r\n
+comment1.params=
+comment1.target=Label()
+comment2.params=t
+comment2.target=void\ setText(java.lang.String)
+comment2.text=\r\n\ Change\ the\ text\ which\ is\ displayed\ by\ this\ label.\r\n\r\n\ @param\ t\ the\ text\ to\ be\ displayed.\r\n
+comment3.params=fontName\ fontSize
+comment3.target=void\ setFont(java.lang.String,\ int)
+comment3.text=\r\n\ Change\ the\ font\ used\ to\ draw\ the\ text\r\n\r\n\ @param\ fontName\ name\ of\ the\ font\ to\ use\ \r\n\ \ \ \ \ \ \ \ \ (ex\:\ "Arial",\ "Times\ New\ Roman",\ "Courier\ New",\ ....)\r\n\ @param\ fontSize\ base\ size\ of\ font\ (approximately\ height\ in\ pixels)\r\n
+comment4.params=redPercent\ greenPercent\ bluePercent
+comment4.target=void\ setColor(double,\ double,\ double)
+comment4.text=\r\n\ Set\ the\ color\ of\ the\ text\ being\ drawn.\ Colors\ use\ RGB\ (red,\ green,\ blue)\ percents;\r\n\ \ \ mix\ together\ as\ colors\ of\ light\ (not\ colors\ of\ paint).\r\n\r\n\ @param\ redPercent\ the\ amount\ of\ red\ light\ used\r\n\ @param\ greenPercent\ the\ amount\ of\ green\ light\ used\r\n\ @param\ bluePercent\ the\ amount\ of\ blue\ light\ used\r\n
+comment5.params=redPercent\ greenPercent\ bluePercent
+comment5.target=void\ setBorderColor(double,\ double,\ double)
+comment5.text=\r\n\ Set\ the\ color\ of\ the\ text\ border\ being\ drawn.\ Colors\ use\ RGB\ (red,\ green,\ blue)\ percents;\r\n\ \ \ mix\ together\ as\ colors\ of\ light\ (not\ colors\ of\ paint).\r\n\r\n\ @param\ redPercent\ the\ amount\ of\ red\ light\ used\r\n\ @param\ greenPercent\ the\ amount\ of\ green\ light\ used\r\n\ @param\ bluePercent\ the\ amount\ of\ blue\ light\ used\r\n
+comment6.params=context
+comment6.target=void\ draw(javafx.scene.canvas.GraphicsContext)
+comment6.text=\r\n\ Draw\ the\ text\ on\ the\ screen.\r\n\r\n\ @param\ context\ the\ context\ attached\ to\ the\ canvas\ where\ images\ are\ drawn\r\n
+numComments=7
